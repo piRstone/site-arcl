@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Nuisances sonores",
+    "text": "Quels seront les impacts de l'augmentation de l'activité sur les nuissances sonores ? Le Berliet est ouvert tout l'été jusqu'en septembre, avec des concerts presque tous les jours. De son côté, bien que le Hellfest ne dure que 4 jours, le bruit lié au montage / démontage (coups de marteau, avertisseurs de recul, etc) est présent tous les jours de la semaine. Qu'en sera-t-il de la future brasserie lorsqu'elle ouvrira ? Quid également de la Gardienne des Ténèbres au niveau de ses possibilités sonores ?",
+    "icon": "twemoji:speaker-high-volume"
+  },
+  {
+    "id": 2,
+    "title": "Circulation et stationnement",
+    "text": "L'ouverture de la brasserie sera source de trafic supplémentaire. Les 600 courverts par jour annoncés seront source d'un flux de véhicules important et bien que le parking existant soit grand (300 places), sera-t-il suffisant pour accueillir le public de la brasserie en plus des visiteurs du site du Hellfest ? Quid d'une soirée à succès affichant complet ?",
+    "icon": "twemoji:automobile"
+  },
+  {
+    "id": 3,
+    "title": "Jauge de fréquentation",
+    "text": "Le site du Champ Louet est ouvert à l'année. Celui-ci s'embellissant après chaque édition du Hellfest, il tend à être de plus en plus fréquenté. La future Gardienne des Ténèbres sera aussi une attraction de plus qui apportera son lot de visiteurs supplémentaires. Quel sera l'impact de cette fréquentation sur les riverains et comment seront gérés les besoins sur place (toilettes, déchets, etc) ?",
+    "icon": "twemoji:admission-tickets"
+  },
+  {
+    "id": 4,
+    "title": "Extension du site",
+    "text": "Depuis l'arrivée du Hellfest sur le site du Champ Louet, celui-ci n'a cessé de grandir. Il occupe maintenant 15 hectares de terres agricoles en partie artificialisées. Les ambitions d'agrandissement du festival ne sont pas secrètes et le déplacement de la scène \"Valley\" a sollicité plus de 400m2 de terres supplémentaires. Jusqu'où ira l'extension du site et quelles seront les conséquences sur les terres agricoles environnantes ?",
+    "icon": "twemoji:building-construction"
+  },
+  {
+    "id": 5,
+    "title": "Assainissement",
+    "text": "Pendant le festival, toutes les eaux usées liées à son activité sont évacuées vers la station de traitement du village de Mocrat en aval. Celle-ci n'étant pas dimensionnée pour traiter une telle quantité d'eaux usées, des débordements ont eu lieu, ayant un impact néfastes pour les habitants à proximité. La brasserie et son restaurant seront raccordés sur cette même station, accentuant les problèmes existants. Nous sommes en discussion avec les acteurs responsables pour aider les riverains impactés à retrouver de la quiétude vis-à-vis de ces nuisances.",
+    "icon": "twemoji:toilet"
+  },
+  {
+    "id": 6,
+    "title": "Impact sur le foncier",
+    "text": "Toutes ces nuissances cumulées et ces activités risquent d'avoir un impact sur le foncier. Les riverains sont inquiets de voir le site du Champ Louet devenir un lieu de fête permanent et que les nuisances soient une contrainte de taille pour la revente de leur bien. Nous devons trouver un équilibre entre les activités du site et le respect des riverains pour préserver leur qualité de vie.",
+    "icon": "twemoji:house-with-garden"
+  }
+]

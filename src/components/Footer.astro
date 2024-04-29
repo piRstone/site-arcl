@@ -1,0 +1,65 @@
+---
+import SectionContainer from "./SectionContainer.astro";
+import {Icon} from "astro-icon";
+import {Image} from "@astrojs/image/components";
+
+const date = new Date();
+const year = date.getFullYear();
+---
+
+<footer id="footer" class="bg-white">
+    {/* Footer Links */}
+    <SectionContainer class="footer--container wrap wrap-px relative z-10">
+        <div class="footer--content-container pt-16 pb-8">
+            <div
+                class="footer-links grid grid-cols-2 gap-8 md:grid-cols-8 lg:grid-cols-12"
+            >
+                <div class="col-span-6">
+                    <div class="footer--logo grid gap-2">
+                        <a href="/">
+                            <Image
+                                src="/logo-horizontal.svg"
+                                alt="logo"
+                                class="h-20 w-auto"
+                                height={100}
+                                aspectRatio={3 / 1}
+                            />
+                        </a>
+                        <p class="m-0">
+                            Association loi 1901 déclarée en Préfecture sous le
+                            numéro W442029165
+                        </p>
+                        <p class="m-0">SIREN 987454790</p>
+                    </div>
+                </div>
+                <div class="col-span-6">
+                    <a
+                        role="button"
+                        href="https://www.payasso.fr/arcl/adhesion"
+                        class="btn btn--secondary mb-2"
+                        target="_blank"
+                    >
+                        Adhérer
+                    </a>
+                    <a
+                        role="button"
+                        href="mailto:contact@arcl-clisson.fr"
+                        class="btn bg-white-600/20"
+                    >
+                        Nous contacter
+                        <Icon name="mdi:arrow-right" class="w-6" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </SectionContainer>
+    {/* Footer Credits */}
+    <SectionContainer class="footer-credits relative z-10">
+        <div class="wrap wrap-px py-6">
+            <p class="my-0 text-gray-400">
+                © {year} Association des Riverains du Champ Louet. Tous droits réservés.
+            </p>
+        </div>
+    </SectionContainer>
+    <div class="footer--background"></div>
+</footer>

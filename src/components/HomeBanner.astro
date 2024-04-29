@@ -1,0 +1,47 @@
+---
+import BadgeGroup from "./badge/BadgeGroup.astro";
+import BadgeIcon from "./badge/BadgeIcon.astro";
+import BadgeMessage from "./badge/BadgeMessage.astro";
+import Button from "./button/Button.astro";
+import ButtonGroup from "./button/ButtonGroup.astro";
+import Content from "./Content.astro";
+import SectionContainer from "./SectionContainer.astro";
+import PageTitle from "./PageTitle.astro";
+import { Icon } from "astro-icon";
+import { Image } from "@astrojs/image/components";
+import { MotionBTTContainer } from "./motion/MotionBTTContainer.jsx";
+---
+
+<SectionContainer class="page-banner--container py-16">
+    <SectionContainer class="page-banner--inner-container wrap wrap-px z-10">
+        <PageTitle class="text-center mx-auto" type="heavy">
+            Association des Riverains du Champ Louet
+        </PageTitle>
+        <Content class="text-center" alignment="center">
+            <p>
+                Le site du Champ Louet à Clisson, où se tient le Hellfest tous
+                les ans, est un lieu vivant et ouvert au public à l’année. La
+                présence du bar ambulant "Le Berliet" et de plusieurs cirques
+                ont été sources de nuisances tout au long des précédents étés.
+                L’ouverture prochaine de la brasserie en lieu et place de
+                l’ancienne discothèque "Le Louxor" va attirer bon nombre de
+                visiteurs. Nous nous sommes donc réunis en tant que riverains
+                pour prendre part aux discussions et faire en sorte que le
+                développement des activités du site du Champ Louet se fasse dans
+                le respect de tous les habitants alentours.
+            </p>
+        </Content>
+        <!-- <div class="page-banner--image">
+            <Image
+                src="/images/nutritrack-hero-banner.png"
+                width={1024}
+                height={680}
+                alt="Page Banner"
+                objectFit="cover"
+                aspectRatio={16 / 9}
+                format="webp"
+                class="mx-auto"
+            />
+        </div> -->
+    </SectionContainer>
+</SectionContainer>

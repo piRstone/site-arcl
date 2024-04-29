@@ -1,0 +1,42 @@
+---
+import Icon from "astro-icon";
+import Content from "./Content.astro";
+import PageTitle from "./PageTitle.astro";
+import SectionContainer from "./SectionContainer.astro";
+import BadgeGroup from "./badge/BadgeGroup.astro";
+import BadgeIcon from "./badge/BadgeIcon.astro";
+import BadgeMessage from "./badge/BadgeMessage.astro";
+import Card from "./card/Card.astro";
+import CardBody from "./card/CardBody.astro";
+import CardGroup from "./card/CardGroup.astro";
+import CardHeader from "./card/CardHeader.astro";
+import actionsData from "@/data/actionsData.json";
+---
+
+<SectionContainer id="nos-actions" class="actions">
+    <PageTitle class="text-center mx-auto" type="default">
+        Nos actions
+    </PageTitle>
+    <Content class="text-center" alignment="center">
+        <p>Nos actions sont liées aux thématiques suivantes&nbsp;:</p>
+    </Content>
+    <CardGroup
+        class="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-12 md:grid-cols-2"
+    >
+        {
+            actionsData.map((action) => (
+                <Card class="col-span-1 text-primary-900 rounded-lg">
+                    <CardBody class="w-full p-10">
+                        <CardHeader class="!text-black !text-2xl !font-bold">
+                            {action.icon && (
+                                <Icon name={action.icon} class="w-12 pb-4" />
+                            )}
+                            {action.title}
+                        </CardHeader>
+                        <p>{action.text}</p>
+                    </CardBody>
+                </Card>
+            ))
+        }
+    </CardGroup>
+</SectionContainer>

@@ -1,0 +1,58 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import HomeBanner from "@/components/HomeBanner.astro";
+import PageTitle from "@/components/PageTitle.astro";
+import Content from "@/components/Content.astro";
+import ActionsCardsSection from "@/components/ActionsCardsSection.astro";
+---
+
+<Layout title="Association des Riverains du Champ Louet" description="">
+    <div class="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20">
+        <HomeBanner />
+        <!-- Home Banner -->
+        <SectionContainer
+            class="components--container wrap wrap-px grid gap-8 sm:gap-24"
+        >
+            <!-- Actions section -->
+            <ActionsCardsSection />
+            <!-- More Features -->
+            <SectionContainer id="pourquoi-adherer" class="benefits">
+                <PageTitle class="text-center mx-auto" type="default">
+                    Pourquoi adhérer ?
+                </PageTitle>
+                <Content class="text-center" alignment="center">
+                    <p>
+                        L'association des Riverains du Champ Louet a pour but de
+                        défendre les intérêts des habitants du quartier du Champ
+                        Louet à Clisson. Nous sommes convaincus que l'union fait
+                        la force et que plus nous serons nombreux, plus nous
+                        pourrons peser dans les décisions qui concernent notre
+                        quartier pour demander et obtenir des mesures qui
+                        respectent notre cadre de vie.
+                    </p>
+                </Content>
+            </SectionContainer>
+            <SectionContainer id="concertation">
+                <PageTitle class="text-center mx-auto" type="default">
+                    Dans la concertation et l’écoute
+                </PageTitle>
+                <Content class="text-center" alignment="center">
+                    <p>
+                        Nos sommes convaincus que pour obtenir des résultats et
+                        maintenir le contact avec toutes les parties prenantes,
+                        les échanges doivent se faire dans la concertation et
+                        l’écoute de chacun. Nous n'avons pas vocation à nous
+                        opposer à tous les projets qui pourraient avoir lieu sur
+                        ce site mais nous veillerons toujours à que chaque
+                        activité se fasse dans le respect des riverains qui
+                        vivent ici à l'année et ont le droit au calme et à la
+                        tranquillité.
+                    </p>
+                </Content>
+            </SectionContainer>
+        </SectionContainer>
+    </div>
+    <!-- FAQ -->
+</Layout>
+<!-- Components Container -->
