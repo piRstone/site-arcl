@@ -2,6 +2,7 @@
 import Content from "./Content.astro";
 import SectionContainer from "./SectionContainer.astro";
 import PageTitle from "./PageTitle.astro";
+import Icon from 'astro-icon';
 ---
 
 <SectionContainer class="page-banner--container py-16">
@@ -23,17 +24,32 @@ import PageTitle from "./PageTitle.astro";
                 le respect de tous les habitants alentours.
             </p>
         </Content>
-        <!-- <div class="page-banner--image">
-            <Image
-                src="/images/nutritrack-hero-banner.png"
-                width={1024}
-                height={680}
-                alt="Page Banner"
-                objectFit="cover"
-                aspectRatio={16 / 9}
-                format="webp"
-                class="mx-auto"
-            />
-        </div> -->
+        <div class="flex flex-col items-center border-2 border-green rounded-xl p-8 mt-12 bg-green/10">
+            <h2 class="text-green font-bold mb-4">Participez à notre réunion d'information</h2>
+            <p class="text-black/60 text-lg mt-2 mb-12">
+                En tant que riverains, vous êtes conviés à participer à notre
+                réunion d’information où nous vous présenterons l’association
+                ainsi que nos enjeux principaux et les actions à mener pour
+                les faire progresser.
+            </p>
+            <div class="flex flex-row items-center justify-center text-white font-bold text-lg gap-8">
+                <div class="relative bg-darkBlue rounded-md p-4 pl-8">
+                    <div class="absolute -top-4 -left-4">
+                        <Icon name="twemoji:spiral-calendar" class="w-10" />
+                    </div>
+                    <p>Le jeudi 17 octobre 2024 à 20h00</p>
+                </div>
+                <div class="relative bg-darkBlue rounded-md p-4 pl-8">
+                    <div class="absolute -top-4 -left-4">
+                        <Icon name="twemoji:pushpin" class="w-10" />
+                    </div>
+                    <p>Salle du Piteau, Rue des Sabotiers, Clisson</p>
+                </div>
+            </div>
+            <div class="flex flex-row items-center gap-2 mt-12 px-2 border border-green rounded-full">
+                <Icon name="twemoji:automobile" class="w-6" />
+                <a href="https://maps.app.goo.gl/c5KVrEMVJ6JB4Yqj9" target="_blank" class="text-green text-lg p-0">Itinéraire</a>
+            </div>
+        </div>
     </SectionContainer>
 </SectionContainer>
