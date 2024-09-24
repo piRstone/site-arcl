@@ -10,6 +10,11 @@
         "href": "/#pourquoi-adherer"
     },
     {
+        "name": "Restez informé",
+        "to": "#newsletter",
+        "href": "/#newsletter"
+    },
+    {
         "name": "Contact",
         "href": "mailto:contact@arcl-clisson.fr",
         "isArrow": true

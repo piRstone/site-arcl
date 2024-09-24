@@ -5,6 +5,7 @@ import HomeBanner from "@/components/HomeBanner.astro";
 import PageTitle from "@/components/PageTitle.astro";
 import Content from "@/components/Content.astro";
 import ActionsCardsSection from "@/components/ActionsCardsSection.astro";
+import NewsletterForm from '@/components/NewsletterForm.astro';
 ---
 
 <Layout title="Association des Riverains du Champ Louet" description="">
@@ -50,6 +51,12 @@ import ActionsCardsSection from "@/components/ActionsCardsSection.astro";
                         tranquillité.
                     </p>
                 </Content>
+            </SectionContainer>
+            <SectionContainer id="newsletter">
+                <PageTitle class="text-center mx-auto" type="default">
+                    Restez informé de nos avancées
+                </PageTitle>
+                <NewsletterForm />
             </SectionContainer>
         </SectionContainer>
     </div>
