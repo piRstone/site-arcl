@@ -11,15 +11,12 @@ const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
-    console.log('passe')
     setIsNavOpen(!isNavOpen);
   };
 
   const closeNav = () => {
     setIsNavOpen(false);
   };
-
-  console.log('isNavOpen', isNavOpen)
 
   const navItems = [
     {
